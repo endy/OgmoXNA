@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using OgmoXNA;
 using Microsoft.Xna.Framework.Graphics;
+using OgmoXNA;
 using OgmoXNADemo.Levels;
 
 namespace OgmoXNADemo.Objects
@@ -62,8 +62,10 @@ namespace OgmoXNADemo.Objects
             {
                 if (this.IsTiled)
                 {
-                    spriteBatch.GraphicsDevice.SamplerStates[0].AddressU = TextureAddressMode.Wrap;
-                    spriteBatch.GraphicsDevice.SamplerStates[0].AddressV = TextureAddressMode.Wrap;
+                    SamplerState wrap = new SamplerState();
+                    wrap.AddressU = TextureAddressMode.Wrap;
+                    wrap.AddressV = TextureAddressMode.Wrap;
+                    spriteBatch.GraphicsDevice.SamplerStates[0] = wrap;
                 }
                 spriteBatch.Draw(this.Texture,
                     this.Position,

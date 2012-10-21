@@ -27,7 +27,7 @@ namespace OgmoXNAPipelineExtensions
 				data.Add("ResizeToPowerOfTwo", false);
 				data.Add("TextureFormat", TextureProcessorOutputFormat.Color);
 				data.Add("ColorKeyEnabled", false);
-				data.Add("ColorKeyColor", Microsoft.Xna.Framework.Graphics.Color.Magenta);
+				data.Add("ColorKeyColor", Microsoft.Xna.Framework.Color.Magenta);
                 tileset.TextureReference = context.BuildAsset<TextureContent, TextureContent>(
                     new ExternalReference<TextureContent>(assetPath),
                     "TextureProcessor",
@@ -44,7 +44,7 @@ namespace OgmoXNAPipelineExtensions
                 data.Add("ResizeToPowerOfTwo", false);
                 data.Add("TextureFormat", TextureProcessorOutputFormat.Color);
                 data.Add("ColorKeyEnabled", false);
-                data.Add("ColorKeyColor", Microsoft.Xna.Framework.Graphics.Color.Magenta);
+                data.Add("ColorKeyColor", Microsoft.Xna.Framework.Color.Magenta);
                 obj.TextureReference = context.BuildAsset<TextureContent, TextureContent>(
                     new ExternalReference<TextureContent>(assetPath),
                     "TextureProcessor",

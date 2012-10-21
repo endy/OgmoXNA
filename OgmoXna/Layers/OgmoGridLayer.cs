@@ -6,7 +6,6 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework;
 using OgmoXNA.Layers.Settings;
 using System.IO;
-using System.IO.Compression;
 using System.Globalization;
 
 namespace OgmoXNA.Layers
@@ -63,7 +62,7 @@ namespace OgmoXNA.Layers
         }
 
         /// <summary>
-        /// Gets the rectangle data for the layer.  This propery is only populated when 
+        /// Gets the rectangle data for the layer.  This property is only populated when 
         /// <see cref="OgmoGridLayerSettings.ExportAsObjects"/> is <c>true</c>; otherwise, it returns <c>null</c>.
         /// </summary>
         public Rectangle[] RectangleData

@@ -1,0 +1,11 @@
+OgmoXNA/bin
+OgmoXNA/obj
+OgmoXNAPipelineExtensions/bin
+OgmoXNAPipelineExtensions/obj
+OgmoXNADemo/bin
+OgmoXNADemo/obj
+OgmoXNADemo/Content/obj
+*.suo
+*.cachefile
+*.user
+*.pdb

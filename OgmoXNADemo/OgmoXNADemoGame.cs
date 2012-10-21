@@ -94,7 +94,7 @@ namespace OgmoXNADemo
         {
             this.GraphicsDevice.Clear(Color.CornflowerBlue);
             // Render in immediate mode to allow easy tiling of textures if needed.
-            spriteBatch.Begin(SpriteBlendMode.AlphaBlend, SpriteSortMode.Immediate, SaveStateMode.None);
+            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
             // Render the level.
             level.Draw((float)gameTime.ElapsedGameTime.TotalSeconds, spriteBatch);
             spriteBatch.End();
