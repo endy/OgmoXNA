@@ -34,6 +34,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Sce.PlayStation.Core" />
+    <Reference Include="OgmoXNA">
+      <HintPath>..\OgmoXNA\bin\Release\OgmoXNA.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PsmMetadata Include="app.xml" />
@@ -57,10 +60,6 @@
     <Compile Include="Objects\Spike.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OgmoXNA\OgmoXNA.PSMobile.csproj">
-      <Project>{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}</Project>
-      <Name>OgmoXNA.PSMobile</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.PSMobile.csproj">
       <Project>{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}</Project>
       <Name>MonoGame.Framework.PSMobile</Name>

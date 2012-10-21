@@ -8,8 +8,8 @@
     <ProjectGuid>{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}</ProjectGuid>
     <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>OgmoXNA.PSMobile</RootNamespace>
-    <AssemblyName>OgmoXNA.PSMobile</AssemblyName>
+    <RootNamespace>OgmoXNA</RootNamespace>
+    <AssemblyName>OgmoXNA</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

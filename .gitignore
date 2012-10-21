@@ -8,4 +8,5 @@ OgmoXNADemo/Content/obj
 *.suo
 *.cachefile
 *.user
-*.pdb
+*.userprefs
+*.pidb
