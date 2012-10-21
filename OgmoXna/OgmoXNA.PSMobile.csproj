@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OgmoXNA.PSMobile</RootNamespace>
+    <AssemblyName>OgmoXNA.PSMobile</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="OgmoLevel.cs" />
+    <Compile Include="OgmoLevelReader.cs" />
+    <Compile Include="OgmoNode.cs" />
+    <Compile Include="OgmoObject.cs" />
+    <Compile Include="OgmoObjectTemplate.cs" />
+    <Compile Include="OgmoProject.cs" />
+    <Compile Include="OgmoProjectReader.cs" />
+    <Compile Include="OgmoProjectSettings.cs" />
+    <Compile Include="OgmoTileset.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Values\OgmoBooleanValue.cs" />
+    <Compile Include="Values\OgmoBooleanValueTemplate.cs" />
+    <Compile Include="Values\OgmoIntegerValue.cs" />
+    <Compile Include="Values\OgmoIntegerValueTemplate.cs" />
+    <Compile Include="Values\OgmoNumberValue.cs" />
+    <Compile Include="Values\OgmoNumberValueTemplate.cs" />
+    <Compile Include="Values\OgmoStringValue.cs" />
+    <Compile Include="Values\OgmoStringValueTemplate.cs" />
+    <Compile Include="Values\OgmoValue.cs" />
+    <Compile Include="Values\OgmoValueOfT.cs" />
+    <Compile Include="Values\OgmoValueReader.cs" />
+    <Compile Include="Values\OgmoValueTemplate.cs" />
+    <Compile Include="Values\OgmoValueTemplateOfT.cs" />
+    <Compile Include="Values\OgmoValueTemplateReader.cs" />
+    <Compile Include="Layers\OgmoGridLayer.cs" />
+    <Compile Include="Layers\OgmoLayer.cs" />
+    <Compile Include="Layers\OgmoLayerReader.cs" />
+    <Compile Include="Layers\OgmoObjectLayer.cs" />
+    <Compile Include="Layers\OgmoTile.cs" />
+    <Compile Include="Layers\OgmoTileLayer.cs" />
+    <Compile Include="Layers\Settings\OgmoGridLayerSettings.cs" />
+    <Compile Include="Layers\Settings\OgmoLayerSettings.cs" />
+    <Compile Include="Layers\Settings\OgmoLayerSettingsReader.cs" />
+    <Compile Include="Layers\Settings\OgmoObjectLayerSettings.cs" />
+    <Compile Include="Layers\Settings\OgmoTileLayerSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="Values\" />
+    <Folder Include="Layers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.PSMobile.csproj">
+      <Project>{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}</Project>
+      <Name>MonoGame.Framework.PSMobile</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

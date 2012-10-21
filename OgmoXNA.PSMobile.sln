@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgmoXNA.PSMobile", "OgmoXNA\OgmoXNA.PSMobile.csproj", "{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgmoXNAPipelineExtensions.PSMobile", "OgmoXNAPipelineExtensions\OgmoXNAPipelineExtensions.PSMobile.csproj", "{EF5993BA-A0B9-4F37-8D2D-C046B4C94868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgmoXNADemo.PSMobile", "OgmoXNADemo\OgmoXNADemo.PSMobile.csproj", "{4CBF4300-022B-4FC9-9F73-4ED2863F5D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.PSMobile", "..\MonoGame\MonoGame.Framework\MonoGame.Framework.PSMobile.csproj", "{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidgren.Network.PSMobile", "..\MonoGame\ThirdParty\Lidgren.Network\Lidgren.Network.PSMobile.csproj", "{167676EE-E2D5-440A-BB2B-EFBD02BC8493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{167676EE-E2D5-440A-BB2B-EFBD02BC8493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167676EE-E2D5-440A-BB2B-EFBD02BC8493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167676EE-E2D5-440A-BB2B-EFBD02BC8493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167676EE-E2D5-440A-BB2B-EFBD02BC8493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBF4300-022B-4FC9-9F73-4ED2863F5D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBF4300-022B-4FC9-9F73-4ED2863F5D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBF4300-022B-4FC9-9F73-4ED2863F5D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBF4300-022B-4FC9-9F73-4ED2863F5D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DEC341-D656-4D9B-A4BF-E8AA71B4D01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5993BA-A0B9-4F37-8D2D-C046B4C94868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5993BA-A0B9-4F37-8D2D-C046B4C94868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5993BA-A0B9-4F37-8D2D-C046B4C94868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5993BA-A0B9-4F37-8D2D-C046B4C94868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = OgmoXNADemo\OgmoXNADemo.PSMobile.csproj
+	EndGlobalSection
+EndGlobal
